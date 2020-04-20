@@ -29,15 +29,17 @@ ul {
   display: table;
   clear: both;
 }
+
+.orange-btn {
+  background: #fe775a;
+  border-radius: 3px;
+  color: #fff;
+  padding: 4px 6px;
+  font-weight: bold;
+}
 /* FINE REGOLE GENERALI */
 
 /* REGOLE NAV */
-.nav-top {
-  line-height: 2vh;
-  background: #f4f9fd;
-  border-bottom: 1px solid gray;
-}
-
 nav .col {
   width: 50%;
 }
@@ -47,45 +49,56 @@ nav ul li {
   padding: 0 20px;
   font-size: 13px;
 }
-nav.nav-top-left {
+
+/* Regole nav superiore */
+nav#top {
+  line-height: 3vh;
+  background: #f4f9fd;
+  padding: 4vh 0;
+}
+
+nav#top .nav-top-left {
   text-align: left;
 }
 
-nav.nav-top-left ul li:first-child {
+nav#top .nav-top-left ul li:first-child {
   padding-left: 0;
   border-right: 1px solid gray;
 }
 
-nav.nav-top-right {
+nav#top .nav-top-left li:first-child::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f7a2';
+  font-weight: 900;
+  padding-right: 5px;
+}
+
+nav#top .nav-top-left li:first-child::after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f107';
+  font-weight: 900;
+  padding-left: 5px;
+}
+
+nav#top .nav-top-right {
   float: right;
   text-align: right;
 }
 
-nav.nav-top-right ul li:last-child {
-  padding-right: 0;
+nav#top .nav-top-right .fa-search {
+  color: #3cb8cc;
 }
 
-nav.nav-top-left li:first-child::before {
-  font-family: "Font Awesome 5 Free";
-  content: '\f7a2';
-  font-weight: 900;
-  padding-right: 3px;
-
-   /* display: inline-block;
-
-   vertical-align: middle;
-   font-weight: 900; */
+nav#top .nav-top-right .login {
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin-right: 20px;
 }
 
-nav.nav-top-left li:first-child::after {
-  font-family: "Font Awesome 5 Free";
-  content: '\f107';
-  font-weight: 900;
-  padding-left: 3px;
-}
+
 /* FINE REGOLE NAV */
-
-#fe775a;
 /* REGOE HEADER */
 
 /* FINE REGOLE HEADER */
