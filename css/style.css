@@ -30,6 +30,13 @@ ul {
   clear: both;
 }
 
+.down-arrow::after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f107';
+  font-weight: 900;
+  padding-left: 5px;
+}
+
 .orange-btn {
   background: #fe775a;
   border-radius: 3px;
@@ -40,6 +47,10 @@ ul {
 /* FINE REGOLE GENERALI */
 
 /* REGOLE NAV */
+nav {
+  line-height: 3vh;
+  padding: 4vh 0;
+}
 nav .col {
   width: 50%;
 }
@@ -50,15 +61,20 @@ nav ul li {
   font-size: 13px;
 }
 
-/* Regole nav superiore */
-nav#top {
-  line-height: 3vh;
-  background: #f4f9fd;
-  padding: 4vh 0;
+.nav-top-left,
+.nav-bottom-left {
+  text-align: left;
 }
 
-nav#top .nav-top-left {
-  text-align: left;
+.nav-top-right,
+.nav-bottom-right {
+  float: right;
+  text-align: right;
+}
+
+/* Regole nav superiore */
+nav#top {
+  background: #f4f9fd;
 }
 
 nav#top .nav-top-left ul li:first-child {
@@ -73,18 +89,6 @@ nav#top .nav-top-left li:first-child::before {
   padding-right: 5px;
 }
 
-nav#top .nav-top-left li:first-child::after {
-  font-family: "Font Awesome 5 Free";
-  content: '\f107';
-  font-weight: 900;
-  padding-left: 5px;
-}
-
-nav#top .nav-top-right {
-  float: right;
-  text-align: right;
-}
-
 nav#top .nav-top-right .fa-search {
   color: #3cb8cc;
 }
@@ -96,7 +100,17 @@ nav#top .nav-top-right .login {
   padding: 3px 6px;
   margin-right: 20px;
 }
+/* Fine regole nav superiore */
 
+/* Inizio regole nav inferiore */
+nav#bottom ul li {
+  padding: 0 15px;
+}
+
+nav#bottom li.down-arrow::after {
+  padding-left: 25px;
+}
+/* Fine regole nav inferiore */
 
 /* FINE REGOLE NAV */
 /* REGOE HEADER */
