@@ -1,0 +1,100 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* REGOLE GENERALI */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* FINE REGOLE GENERALI */
+
+/* REGOLE NAV */
+.nav-top {
+  line-height: 2vh;
+  background: #f4f9fd;
+  border-bottom: 1px solid gray;
+}
+
+nav .col {
+  width: 50%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 13px;
+}
+nav.nav-top-left {
+  text-align: left;
+}
+
+nav.nav-top-left ul li:first-child {
+  padding-left: 0;
+  border-right: 1px solid gray;
+}
+
+nav.nav-top-right {
+  float: right;
+  text-align: right;
+}
+
+nav.nav-top-right ul li:last-child {
+  padding-right: 0;
+}
+
+nav.nav-top-left li:first-child::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f7a2';
+  font-weight: 900;
+  padding-right: 3px;
+
+   /* display: inline-block;
+
+   vertical-align: middle;
+   font-weight: 900; */
+}
+
+nav.nav-top-left li:first-child::after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f107';
+  font-weight: 900;
+  padding-left: 3px;
+}
+/* FINE REGOLE NAV */
+
+#fe775a;
+/* REGOE HEADER */
+
+/* FINE REGOLE HEADER */
+
+
+/* REGOLE MAIN */
+
+/* FINE REGOLE MAIN */
+
+/* REGOLE FOOTER */
+
+/* FINE REGOLE FOOTER */
