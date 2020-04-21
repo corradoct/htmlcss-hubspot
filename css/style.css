@@ -9,7 +9,6 @@
 /* REGOLE GENERALI */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #afebe4;
   width: 1429px;
 }
 
@@ -78,10 +77,6 @@ hr {
   padding: 20px 30px;
 }
 
-.bkg-white {
-  background: #fff;
-}
-
 .box-infos {
   background: #fff;
   border: 1px solid lightgray;
@@ -100,6 +95,23 @@ hr {
   margin-right: 20px;
   font-size: 8px;
   vertical-align: middle;
+}
+
+.plus::after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f067';
+  font-weight: 900;
+  padding: 3px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.border-right {
+  border-right: 1px solid #fff;
 }
 /* FINE REGOLE GENERALI */
 
@@ -192,8 +204,7 @@ header {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top right;
-  height: 610px;
-  border-bottom: 3px solid #3e5567;
+  height: 695px;
 }
 
 /* Inizio regole teaser */
@@ -213,39 +224,37 @@ header .teaser p:last-child {
 /* FINE REGOLE HEADER */
 
 /* REGOLE MAIN */
-main {
-  border-top: 3px solid #3e5567;
-  margin-top: 85px;
+main .bkg-gray {
   background: #f4f9fd;
 }
 
 /* Inizio regole servizi */
-main .container .services {
+main .bkg-gray .container .services {
   text-align: center;
   padding: 3% 12%;
 }
 
-main .container .services img {
+main .bkg-gray .container .services img {
   width: 30%;
 }
 
-main .container .services p {
+main .bkg-gray .container .services p {
   word-spacing: 0;
 }
 /* Fine regole servizi */
 
 /* Inizio regole sezione orizzontale informazioni piani */
-main .container .horizontal-info {
+main .bkg-gray .container .horizontal-info {
   padding-top: 3%;
 }
 
-main .container .horizontal-info .col-left {
+main .bkg-gray .container .horizontal-info .col-left {
   width: 30%;
   text-align: center;
 }
 
-main .container .horizontal-info img,
-main .container .vertical-info img {
+main .bkg-gray .container .horizontal-info img,
+main .bkg-gray .container .vertical-info img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -253,63 +262,90 @@ main .container .vertical-info img {
   margin-bottom: 50px;
 }
 
-main .container .horizontal-info .col-right {
+main .bkg-gray .container .horizontal-info .col-right {
   width: 70%;
   text-align: left;
   padding: 0 5%;
 }
 
-main .container .horizontal-info .col-right h4,
+main .bkg-gray .container .horizontal-info .col-right h4,
 main .container .horizontal-info .col-right hr,
 main .container .horizontal-info .col-right ul li {
   display: inline-block;
 }
 
-main .container .horizontal-info .col-right hr {
+main .bkg-gray .container .horizontal-info .col-right hr {
   width: 60%;
   margin-left: 50px;
   margin-bottom: 6px;
 }
 
-main .container .horizontal-info .col-right ul {
+main .bkg-gray .container .horizontal-info .col-right ul {
   padding: 30px 0;
 }
 
-main .container .horizontal-info .col-right ul li:first-child,
-main .container .horizontal-info .col-right ul li:nth-child(2) {
+main .bkg-gray .container .horizontal-info .col-right ul li:first-child,
+main .bkg-gray .container .horizontal-info .col-right ul li:nth-child(2) {
   margin-right: 20px;
 }
 /* Fine regole sezione orizzontale informazioni piani */
 
 /* Inizio regole sezione 3 colonne verticali informazioni piani */
-main .container .vertical-info {
+main .bkg-gray .container .vertical-info {
   margin: 3% 0;
 }
 
-main .container .vertical-info .col {
+main .bkg-gray .container .vertical-info .col {
   width: 31%;
   padding: 3%;
   text-align: center;
 }
 
-main .container .vertical-info .col-center {
+main .bkg-gray .container .vertical-info .col-center {
   width: 32%;
   margin: 0 3%;
 }
 
-main .container .vertical-info .col hr {
+main .bkg-gray .container .vertical-info .col hr {
   margin-bottom: 30px;
 }
 
-main .container .vertical-info .col ul {
+main .bkg-gray .container .vertical-info .col ul {
   padding: 30px 0;
 }
 
-main .container .vertical-info .col ul li {
+main .bkg-gray .container .vertical-info .col ul li {
   padding-bottom: 10px;
   text-align: left;
 }
 /* Fine regole sezione 3 colonne verticali informazioni piani */
+
+/* Inizio regole sezione statistiche */
+main .bkg-blue {
+  background-image: linear-gradient(to bottom left, #00bda5, #00a4bd);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+main .bkg-blue .container .statistics .col {
+  width: 25%;
+  padding: 20px 50px;
+}
+
+main .bkg-blue h3 {
+  margin: 20px 0;
+  font-size: 45px;
+}
+
+main .bkg-blue span {
+  font-size: 13px;
+}
+
+main .bkg-blue .container .statistics p {
+  color: #fff;
+}
+/* Fine regole sezione statistiche */
 
 /* FINE REGOLE MAIN */
 
