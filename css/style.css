@@ -77,6 +77,15 @@ hr {
   padding: 20px 30px;
 }
 
+.small {
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.margin {
+  margin-bottom: 30px;
+}
+
 .box-infos {
   background: #fff;
   border: 1px solid lightgray;
@@ -216,9 +225,6 @@ header .teaser h1 {
   font-size: 35px;
 }
 
-header .teaser p:last-child {
-  font-size: 10px;
-}
 /* Fine regole teaser */
 
 /* FINE REGOLE HEADER */
@@ -346,6 +352,68 @@ main .bkg-blue .container .statistics p {
   color: #fff;
 }
 /* Fine regole sezione statistiche */
+
+/* Inizio regole sezione partners */
+main .partners {
+  text-align: center;
+  padding: 3%;
+}
+
+/* Fine regole sezione partners */
+
+/* Inizio regole prima riga sezione partners */
+main .partners .number-partners {
+  width: 30%;
+  padding-right: 100px;
+}
+
+main .partners .number-partners h3 {
+  font-size: 45px;
+}
+
+main .partners .number-partners p span {
+  font-weight: bold;
+}
+
+main .partners .logo-partners {
+  width: 70%;
+  padding: 25px 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+main .partners .logo-partners .logo-partner {
+  width: 25%;
+}
+
+main .partners .logo-partners .logo-partner img {
+  width: 100px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+/* Fine regole prima riga sezione partners */
+
+/* Inizio regole seconda riga sezione partners */
+main .start-growing .col {
+  width: 50%;
+}
+
+main .start-growing .start-growing-text {
+  padding-right: 125px;
+}
+
+main .start-growing .start-growing-img {
+  text-align: right;
+}
+
+main .start-growing .start-growing-img img {
+  width: 50%;
+}
+
+/* Fine regole seconda riga sezione partners */
+
+
 
 /* FINE REGOLE MAIN */
 
