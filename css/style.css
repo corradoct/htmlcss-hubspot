@@ -77,6 +77,10 @@ hr {
   padding: 20px 30px;
 }
 
+.orange-btn:hover {
+  color: #000;
+}
+
 .small {
   font-size: 10px;
   margin-top: 30px;
@@ -136,11 +140,16 @@ nav .col {
 nav ul li {
   display: inline-block;
   padding: 0 20px;
+  cursor: pointer;
 }
 
 nav#top .nav-top-left,
 nav#bottom .nav-bottom-left {
   text-align: left;
+}
+
+nav ul li:hover {
+  color: #fe775a;
 }
 
 nav#top .nav-top-right,
@@ -170,12 +179,20 @@ nav#top .nav-top-right .fa-search {
   color: #3cb8cc;
 }
 
+nav#top .nav-top-right .fa-search:hover {
+  transform: scale(2);
+}
+
 nav#top .nav-top-right .login {
   color: #fe775a;
   border: 1px solid #fe775a;
   border-radius: 3px;
   padding: 3px 6px;
   margin-right: 20px;
+}
+
+nav#top .nav-top-right .login:hover {
+  color: #000;
 }
 
 nav#top .nav-top-right .orange-btn {
@@ -419,6 +436,14 @@ footer {
   color: #cbd6e2;
 }
 
+footer ul li {
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  font-weight: bold;
+}
+
 footer .bkg-blue {
   background: #32495b;
 }
@@ -448,9 +473,22 @@ footer .container .footer-menu .extra-list li:first-child {
   display: block;
 }
 
+footer .container .footer-menu ul .dropdown-content {
+  display: none;
+}
+
+footer .container .footer-menu ul li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 footer .container .footer-menu .extra-list .fab {
   padding-right: 25px;
   font-size: 15px;
+}
+
+footer .container .footer-menu .extra-list li:hover {
+  font-weight: normal;
+  transform: scale(1.2);
 }
 
 footer .container .footer-menu .extra-list .no-padding {
@@ -490,8 +528,8 @@ footer .container .copyright .logo-copyright {
   text-align: left;
 }
 footer .container .copyright .logo-copyright p {
-color: #cbd6e2;
-padding: 3px 0;
+  color: #cbd6e2;
+  padding: 3px 0;
 }
 /* Fine regole footer copyright */
 
