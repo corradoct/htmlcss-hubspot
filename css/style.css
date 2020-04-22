@@ -402,11 +402,11 @@ main .partners .logo-partners {
 
 main .partners .logo-partners .logo-partner {
   width: 25%;
+  line-height: 50px;
 }
 
 main .partners .logo-partners .logo-partner img {
   width: 100px;
-  padding-bottom: 20px;
   vertical-align: middle;
 }
 /* Fine regole prima riga sezione partners */
