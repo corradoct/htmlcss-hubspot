@@ -9,7 +9,7 @@
 /* REGOLE GENERALI */
 body {
   font-family: 'Montserrat', sans-serif;
-  width: 1429px;
+  width: 100%;
 }
 
 ul {
@@ -227,9 +227,9 @@ nav#bottom li.down-arrow::after {
 /* REGOLE HEADER */
 header {
   background-image: url('../img/jumbotron.png');
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: bottom right;
   height: 695px;
 }
 
@@ -455,7 +455,7 @@ footer .container {
 /* Inizio regole footer menu */
 footer .container .footer-menu .col {
   width: 25%;
-  padding: 0 50px;
+  padding: 0 40px;
 }
 
 footer .container .footer-menu ul li {
