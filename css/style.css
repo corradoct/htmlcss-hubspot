@@ -544,3 +544,78 @@ footer .container .copyright .legal-policy ul li:last-child {
 /* Fine regole footer policy */
 
 /* FINE REGOLE FOOTER */
+
+/* Inizio regole help chat */
+.container-help-chat {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  width: 20%;
+}
+
+.help-chat {
+  position: relative;
+}
+
+.help-chat .message {
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  top: -100px;
+  border-radius: 5px;
+}
+
+.help-chat .message .bot {
+  text-align: center;
+  position: relative;
+  top: -35px;
+  z-index: 1;
+}
+
+.help-chat .message .bot img {
+  width: 60px;
+}
+.close {
+  text-align: right;
+}
+.close .fa-times {
+  color: gray;
+  font-size: 30px;
+
+}
+
+.help-chat .message .text-message a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+.help-chat .message .text-message p {
+  font-size: 18px;
+  word-spacing: 2px;
+  padding: 0 15px;
+}
+
+.help-chat .message .under-message {
+  position: relative;
+  top: 35px;
+  left: 70%;
+}
+.container-img {
+  width: 80px;
+  height: 80px;
+  background: gray;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: calc(100% - 80px);
+  right: 0;
+}
+.container-help-chat .help-chat .container-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Fine regole help chat */
